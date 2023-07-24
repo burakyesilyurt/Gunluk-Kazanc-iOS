@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F52ED24E2A5AFE0F000FAA63 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52ED24D2A5AFE0F000FAA63 /* SignUpViewController.swift */; };
+		F52ED2502A5AFE5D000FAA63 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52ED24F2A5AFE5D000FAA63 /* LoginViewController.swift */; };
+		F564B2E82A59B28B0058E7EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F564B2E72A59B28B0058E7EB /* AppDelegate.swift */; };
+		F564B2EA2A59B28B0058E7EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F564B2E92A59B28B0058E7EB /* SceneDelegate.swift */; };
+		F564B2EC2A59B28B0058E7EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F564B2EB2A59B28B0058E7EB /* ViewController.swift */; };
+		F564B2EF2A59B28B0058E7EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F564B2ED2A59B28B0058E7EB /* Main.storyboard */; };
+		F564B2F22A59B28B0058E7EB /* gunluk_kazanc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F564B2F02A59B28B0058E7EB /* gunluk_kazanc.xcdatamodeld */; };
+		F564B2F42A59B28B0058E7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F564B2F32A59B28B0058E7EB /* Assets.xcassets */; };
+		F564B2F72A59B28B0058E7EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F564B2F52A59B28B0058E7EB /* LaunchScreen.storyboard */; };
+		F564B3002A59B67E0058E7EB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F564B2FF2A59B67E0058E7EB /* Alamofire */; };
+		F564B3032A59B8440058E7EB /* GunlukServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F564B3022A59B8440058E7EB /* GunlukServiceManager.swift */; };
+		F564B3062A59BBA30058E7EB /* JobsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F564B3052A59BBA30058E7EB /* JobsModel.swift */; };
+		F564B3082A59BEC30058E7EB /* GunlukService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F564B3072A59BEC30058E7EB /* GunlukService.swift */; };
+		F567F6332A5ED7B300C962BE /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F567F6322A5ED7B300C962BE /* ProfileModel.swift */; };
+		F567F6352A5EF07D00C962BE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F567F6342A5EF07D00C962BE /* ProfileViewController.swift */; };
+		F575BAE32A6068DA00ADB277 /* JobPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F575BAE22A6068DA00ADB277 /* JobPostViewController.swift */; };
+		F575BAE52A60691D00ADB277 /* EmployerPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F575BAE42A60691D00ADB277 /* EmployerPostsViewController.swift */; };
+		F575BAE72A60693500ADB277 /* AppliersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F575BAE62A60693500ADB277 /* AppliersViewController.swift */; };
+		F581D2F42A59CDDC00AED09F /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F581D2F32A59CDDC00AED09F /* LoginModel.swift */; };
+		F581E8212A618CB000897931 /* ApplierModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F581E8202A618CB000897931 /* ApplierModel.swift */; };
+		F581E8252A61985600897931 /* AppliersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F581E8242A61985600897931 /* AppliersTableViewCell.swift */; };
+		F5C5BB7D2A62BE2100A00459 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C5BB7C2A62BE2000A00459 /* CustomTabBarController.swift */; };
+		F5CF22102A5C1B18008DC179 /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CF220F2A5C1B18008DC179 /* RegisterModel.swift */; };
+		F5CF22122A5C3C9D008DC179 /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CF22112A5C3C9D008DC179 /* CreateProfileViewController.swift */; };
+		F5CF22152A5C806A008DC179 /* utilFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CF22142A5C806A008DC179 /* utilFunctions.swift */; };
+		F5CF22172A5CA806008DC179 /* JobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CF22162A5CA806008DC179 /* JobTableViewCell.swift */; };
+		F5CF22192A5CABA8008DC179 /* JobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CF22182A5CABA8008DC179 /* JobsViewController.swift */; };
+		F5DD08412A5D84C60058B210 /* JobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD08402A5D84C60058B210 /* JobViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F52ED24D2A5AFE0F000FAA63 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F52ED24F2A5AFE5D000FAA63 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F564B2E42A59B28B0058E7EB /* gunluk_kazanc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gunluk_kazanc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F564B2E72A59B28B0058E7EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F564B2E92A59B28B0058E7EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F564B2EB2A59B28B0058E7EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F564B2EE2A59B28B0058E7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F564B2F12A59B28B0058E7EB /* gunluk_kazanc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gunluk_kazanc.xcdatamodel; sourceTree = "<group>"; };
+		F564B2F32A59B28B0058E7EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F564B2F62A59B28B0058E7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F564B2F82A59B28B0058E7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F564B3022A59B8440058E7EB /* GunlukServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunlukServiceManager.swift; sourceTree = "<group>"; };
+		F564B3052A59BBA30058E7EB /* JobsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsModel.swift; sourceTree = "<group>"; };
+		F564B3072A59BEC30058E7EB /* GunlukService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunlukService.swift; sourceTree = "<group>"; };
+		F567F6322A5ED7B300C962BE /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		F567F6342A5EF07D00C962BE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F575BAE22A6068DA00ADB277 /* JobPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPostViewController.swift; sourceTree = "<group>"; };
+		F575BAE42A60691D00ADB277 /* EmployerPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerPostsViewController.swift; sourceTree = "<group>"; };
+		F575BAE62A60693500ADB277 /* AppliersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliersViewController.swift; sourceTree = "<group>"; };
+		F581D2F32A59CDDC00AED09F /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		F581E8202A618CB000897931 /* ApplierModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplierModel.swift; sourceTree = "<group>"; };
+		F581E8242A61985600897931 /* AppliersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliersTableViewCell.swift; sourceTree = "<group>"; };
+		F5C5BB7C2A62BE2000A00459 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		F5CF220F2A5C1B18008DC179 /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		F5CF22112A5C3C9D008DC179 /* CreateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
+		F5CF22142A5C806A008DC179 /* utilFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utilFunctions.swift; sourceTree = "<group>"; };
+		F5CF22162A5CA806008DC179 /* JobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTableViewCell.swift; sourceTree = "<group>"; };
+		F5CF22182A5CABA8008DC179 /* JobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsViewController.swift; sourceTree = "<group>"; };
+		F5DD08402A5D84C60058B210 /* JobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F564B2E12A59B28B0058E7EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F564B3002A59B67E0058E7EB /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F52ED24B2A5AD8FE000FAA63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F575BAE12A60688E00ADB277 /* EmployerControllers */,
+				F52ED24D2A5AFE0F000FAA63 /* SignUpViewController.swift */,
+				F52ED24F2A5AFE5D000FAA63 /* LoginViewController.swift */,
+				F5CF22112A5C3C9D008DC179 /* CreateProfileViewController.swift */,
+				F5CF22182A5CABA8008DC179 /* JobsViewController.swift */,
+				F5DD08402A5D84C60058B210 /* JobViewController.swift */,
+				F567F6342A5EF07D00C962BE /* ProfileViewController.swift */,
+				F5C5BB7C2A62BE2000A00459 /* CustomTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F52ED24C2A5AD90D000FAA63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5CF22162A5CA806008DC179 /* JobTableViewCell.swift */,
+				F581E8242A61985600897931 /* AppliersTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F564B2DB2A59B28A0058E7EB = {
+			isa = PBXGroup;
+			children = (
+				F564B2E62A59B28B0058E7EB /* gunluk_kazanc */,
+				F564B2E52A59B28B0058E7EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F564B2E52A59B28B0058E7EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F564B2E42A59B28B0058E7EB /* gunluk_kazanc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F564B2E62A59B28B0058E7EB /* gunluk_kazanc */ = {
+			isa = PBXGroup;
+			children = (
+				F5CF22132A5C804F008DC179 /* Utils */,
+				F564B3042A59B8590058E7EB /* Model */,
+				F564B3012A59B8150058E7EB /* Service */,
+				F52ED24B2A5AD8FE000FAA63 /* Controller */,
+				F52ED24C2A5AD90D000FAA63 /* View */,
+				F564B2E72A59B28B0058E7EB /* AppDelegate.swift */,
+				F564B2E92A59B28B0058E7EB /* SceneDelegate.swift */,
+				F564B2EB2A59B28B0058E7EB /* ViewController.swift */,
+				F564B2ED2A59B28B0058E7EB /* Main.storyboard */,
+				F564B2F32A59B28B0058E7EB /* Assets.xcassets */,
+				F564B2F52A59B28B0058E7EB /* LaunchScreen.storyboard */,
+				F564B2F82A59B28B0058E7EB /* Info.plist */,
+				F564B2F02A59B28B0058E7EB /* gunluk_kazanc.xcdatamodeld */,
+			);
+			path = gunluk_kazanc;
+			sourceTree = "<group>";
+		};
+		F564B3012A59B8150058E7EB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F564B3022A59B8440058E7EB /* GunlukServiceManager.swift */,
+				F564B3072A59BEC30058E7EB /* GunlukService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F564B3042A59B8590058E7EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F564B3052A59BBA30058E7EB /* JobsModel.swift */,
+				F581D2F32A59CDDC00AED09F /* LoginModel.swift */,
+				F5CF220F2A5C1B18008DC179 /* RegisterModel.swift */,
+				F567F6322A5ED7B300C962BE /* ProfileModel.swift */,
+				F581E8202A618CB000897931 /* ApplierModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F575BAE12A60688E00ADB277 /* EmployerControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F575BAE22A6068DA00ADB277 /* JobPostViewController.swift */,
+				F575BAE42A60691D00ADB277 /* EmployerPostsViewController.swift */,
+				F575BAE62A60693500ADB277 /* AppliersViewController.swift */,
+			);
+			path = EmployerControllers;
+			sourceTree = "<group>";
+		};
+		F5CF22132A5C804F008DC179 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F5CF22142A5C806A008DC179 /* utilFunctions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F564B2E32A59B28B0058E7EB /* gunluk_kazanc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F564B2FB2A59B28B0058E7EB /* Build configuration list for PBXNativeTarget "gunluk_kazanc" */;
+			buildPhases = (
+				F564B2E02A59B28B0058E7EB /* Sources */,
+				F564B2E12A59B28B0058E7EB /* Frameworks */,
+				F564B2E22A59B28B0058E7EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gunluk_kazanc;
+			packageProductDependencies = (
+				F564B2FF2A59B67E0058E7EB /* Alamofire */,
+			);
+			productName = gunluk_kazanc;
+			productReference = F564B2E42A59B28B0058E7EB /* gunluk_kazanc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F564B2DC2A59B28A0058E7EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F564B2E32A59B28B0058E7EB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = F564B2DF2A59B28A0058E7EB /* Build configuration list for PBXProject "gunluk_kazanc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F564B2DB2A59B28A0058E7EB;
+			packageReferences = (
+				F564B2FE2A59B67E0058E7EB /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = F564B2E52A59B28B0058E7EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F564B2E32A59B28B0058E7EB /* gunluk_kazanc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F564B2E22A59B28B0058E7EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F564B2F72A59B28B0058E7EB /* LaunchScreen.storyboard in Resources */,
+				F564B2F42A59B28B0058E7EB /* Assets.xcassets in Resources */,
+				F564B2EF2A59B28B0058E7EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F564B2E02A59B28B0058E7EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F564B2EC2A59B28B0058E7EB /* ViewController.swift in Sources */,
+				F564B3032A59B8440058E7EB /* GunlukServiceManager.swift in Sources */,
+				F5C5BB7D2A62BE2100A00459 /* CustomTabBarController.swift in Sources */,
+				F564B2E82A59B28B0058E7EB /* AppDelegate.swift in Sources */,
+				F575BAE52A60691D00ADB277 /* EmployerPostsViewController.swift in Sources */,
+				F581E8252A61985600897931 /* AppliersTableViewCell.swift in Sources */,
+				F5CF22172A5CA806008DC179 /* JobTableViewCell.swift in Sources */,
+				F575BAE32A6068DA00ADB277 /* JobPostViewController.swift in Sources */,
+				F564B2EA2A59B28B0058E7EB /* SceneDelegate.swift in Sources */,
+				F581E8212A618CB000897931 /* ApplierModel.swift in Sources */,
+				F5CF22122A5C3C9D008DC179 /* CreateProfileViewController.swift in Sources */,
+				F567F6352A5EF07D00C962BE /* ProfileViewController.swift in Sources */,
+				F575BAE72A60693500ADB277 /* AppliersViewController.swift in Sources */,
+				F564B2F22A59B28B0058E7EB /* gunluk_kazanc.xcdatamodeld in Sources */,
+				F581D2F42A59CDDC00AED09F /* LoginModel.swift in Sources */,
+				F5CF22192A5CABA8008DC179 /* JobsViewController.swift in Sources */,
+				F567F6332A5ED7B300C962BE /* ProfileModel.swift in Sources */,
+				F5CF22102A5C1B18008DC179 /* RegisterModel.swift in Sources */,
+				F52ED24E2A5AFE0F000FAA63 /* SignUpViewController.swift in Sources */,
+				F564B3082A59BEC30058E7EB /* GunlukService.swift in Sources */,
+				F5DD08412A5D84C60058B210 /* JobViewController.swift in Sources */,
+				F5CF22152A5C806A008DC179 /* utilFunctions.swift in Sources */,
+				F52ED2502A5AFE5D000FAA63 /* LoginViewController.swift in Sources */,
+				F564B3062A59BBA30058E7EB /* JobsModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F564B2ED2A59B28B0058E7EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F564B2EE2A59B28B0058E7EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F564B2F52A59B28B0058E7EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F564B2F62A59B28B0058E7EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F564B2F92A59B28B0058E7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F564B2FA2A59B28B0058E7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F564B2FC2A59B28B0058E7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gunluk_kazanc/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "burakyesilyurt.gunluk-kazanc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F564B2FD2A59B28B0058E7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gunluk_kazanc/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "burakyesilyurt.gunluk-kazanc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F564B2DF2A59B28A0058E7EB /* Build configuration list for PBXProject "gunluk_kazanc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F564B2F92A59B28B0058E7EB /* Debug */,
+				F564B2FA2A59B28B0058E7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F564B2FB2A59B28B0058E7EB /* Build configuration list for PBXNativeTarget "gunluk_kazanc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F564B2FC2A59B28B0058E7EB /* Debug */,
+				F564B2FD2A59B28B0058E7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F564B2FE2A59B67E0058E7EB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F564B2FF2A59B67E0058E7EB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F564B2FE2A59B67E0058E7EB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		F564B2F02A59B28B0058E7EB /* gunluk_kazanc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F564B2F12A59B28B0058E7EB /* gunluk_kazanc.xcdatamodel */,
+			);
+			currentVersion = F564B2F12A59B28B0058E7EB /* gunluk_kazanc.xcdatamodel */;
+			path = gunluk_kazanc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F564B2DC2A59B28A0058E7EB /* Project object */;
+}
